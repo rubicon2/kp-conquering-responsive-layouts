@@ -34,3 +34,21 @@ body {
 .intro-content {
   width: 50%;
 }
+
+.mega-button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1em 4em;
+  border-radius: 15px;
+  color: white;
+  background-color: #23424a;
+  border: 2px solid white;
+}
+
+.mega-button:hover {
+  background-color: #2b4e5c;
+}
+
+.mega-button:active {
+  background-color: #182733;
+}
