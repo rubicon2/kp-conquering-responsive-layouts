@@ -26,6 +26,13 @@
   padding: 5rem;
 }
 
+.container {
+  width: 80vw;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
 .hero-content {
   width: 50%;
 }
