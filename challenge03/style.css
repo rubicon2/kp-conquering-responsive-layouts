@@ -1,0 +1,57 @@
+
+
+:root {
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+  --dark-blue: #23424a;
+  --mid-blue: #136c72;
+  --light-blue: #38cfd9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-color: var(--dark-blue);
+  color: white;
+
+  padding: 5rem;
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.hero-p {
+  font-size: 21px;
+  margin-bottom: 2rem;
+}
+
+.learn-button {
+  background-color: var(--light-blue);
+
+  color: var(--dark-blue);
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 50px;
+  padding: 0.75em 2.5em;
+
+  cursor: pointer;
+}
