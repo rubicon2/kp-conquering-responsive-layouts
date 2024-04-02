@@ -23,7 +23,7 @@
   background-color: var(--dark-blue);
   color: white;
 
-  padding: 5rem;
+  padding: 5vw;
 }
 
 .container {
@@ -40,12 +40,12 @@
 .hero-heading {
   font-size: 48px;
   font-weight: 900;
-  margin-bottom: 1rem;
+  margin-bottom: 0.25em;
 }
 
 .hero-p {
   font-size: 21px;
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
 }
 
 .learn-button {
