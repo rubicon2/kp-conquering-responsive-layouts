@@ -37,6 +37,12 @@
   width: 50%;
 }
 
+@media (max-width: 560px) {
+  .hero-content {
+    width: 100%;
+  }
+}
+
 .hero-heading {
   font-size: 48px;
   font-weight: 900;
