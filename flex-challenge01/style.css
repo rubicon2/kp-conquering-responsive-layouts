@@ -37,14 +37,15 @@ h1 {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
+
+    padding: 1em 0;
 }
 
 .row {
     /* display: flex => flex container */
     display: flex;
-
-    /* can't use yet */
-    /* gap: 100px; */
+    gap: 1em;
+    text-align: center;
 }
 
 .col {
@@ -52,8 +53,12 @@ h1 {
     width: 100%;
 }
 
+.col h2 {
+    font-size: 36px;
+}
+
 .hero {
-    padding: 100px 0;
+    padding: 3em 0;
     background-color: #23424A;
     color: #FFF;
 }
@@ -80,4 +85,13 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+.purple-text {
+    color: #87629a;
+}
+
+.blue-background {
+    color: white;
+    background-color: #136c72;
 }
