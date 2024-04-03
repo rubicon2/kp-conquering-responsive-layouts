@@ -95,3 +95,22 @@ h1 {
     color: white;
     background-color: #136c72;
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 90vw;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        padding-top: 0;
+        padding-bottom: 0.5em;
+    }
+
+    .hero__text {
+        width: 100%;
+    }
+}
