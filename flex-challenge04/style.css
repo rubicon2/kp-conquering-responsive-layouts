@@ -29,17 +29,15 @@ h5,
 h6 {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
+  margin-bottom: 0.75em;
 }
 
 h1 {
   font-size: 3rem;
 }
 
-h2 {
-
-}
-
 p {
+  font-weight: 400;
   margin-bottom: 1em;
 }
 
@@ -49,8 +47,13 @@ p:last-child {
 
 /* || Reusable classes */
 .container {
-  max-width: 828px;
+  max-width: 55rem;
   margin: 0 auto;
+  padding: 4rem 1em;
+}
+
+.half-width {
+  width: 50%;
 }
 
 .flex-row {
@@ -63,7 +66,7 @@ p:last-child {
 }
 
 .flex-gap {
-  gap: 1em;
+  gap: 2.5rem;
 }
 
 .flex-center {
@@ -87,14 +90,26 @@ p:last-child {
   color: var(--dark-color);
 }
 
+.light-background {
+  background-color: var(--light-color);
+}
+
+.mid-background {
+  background-color: var(--mid-color);
+}
+
+.dark-background {
+  background-color: var(--dark-color);
+}
+
 /* || Specific classes */
 .header {
   background-color: var(--light-color);
 }
 
 .header-content {
-  width: 30%;
-  height: 30rem;
+  max-width: 40rem;
+  min-height: 30rem;
   text-align: center;
 }
 
@@ -102,4 +117,8 @@ p:last-child {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.5em;
+}
+
+.hero {
+  margin: 0;
 }
