@@ -1,0 +1,105 @@
+/* || Reset */
+:root {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+  --light-color: #f3eed9;
+  --mid-color: #824936;
+  --dark-color: #222c2a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* || Elements */
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* || Reusable classes */
+.container {
+  max-width: 828px;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-gap {
+  gap: 1em;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.light-color {
+  color: var(--light-color);
+}
+
+.mid-color {
+  color: var(--mid-color);
+}
+
+.dark-color {
+  color: var(--dark-color);
+}
+
+/* || Specific classes */
+.header {
+  background-color: var(--light-color);
+}
+
+.header-content {
+  width: 30%;
+  height: 30rem;
+  text-align: center;
+}
+
+.pre-hero {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
