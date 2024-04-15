@@ -52,25 +52,21 @@ p:last-child {
   padding: 4rem 1em;
 }
 
-.half-width {
-  width: 50%;
-}
-
-.flex-row {
+.flex {
   display: flex;
 }
-
 .flex-col {
-  display: flex;
   flex-direction: column;
 }
-
 .flex-gap {
   gap: 2.5rem;
 }
-
 .flex-center {
   justify-content: center;
+  align-items: center;
+}
+.flex-adapt {
+  flex-direction: column; 
   align-items: center;
 }
 
@@ -81,11 +77,9 @@ p:last-child {
 .light-color {
   color: var(--light-color);
 }
-
 .mid-color {
   color: var(--mid-color);
 }
-
 .dark-color {
   color: var(--dark-color);
 }
@@ -93,20 +87,14 @@ p:last-child {
 .light-background {
   background-color: var(--light-color);
 }
-
 .mid-background {
   background-color: var(--mid-color);
 }
-
 .dark-background {
   background-color: var(--dark-color);
 }
 
 /* || Specific classes */
-.header {
-  background-color: var(--light-color);
-}
-
 .header-content {
   max-width: 40rem;
   min-height: 30rem;
@@ -121,4 +109,15 @@ p:last-child {
 
 .hero {
   margin: 0;
+  line-height: 3rem;
+}
+
+@media (min-width: 650px) {
+  .col {
+    width: 50%;
+  }
+  .flex-adapt {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
