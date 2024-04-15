@@ -60,6 +60,9 @@ header {
     background: #136c72;
     padding: 1em 0;
     text-align: center;
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
 }
 
 .nav {
@@ -215,12 +218,25 @@ header {
         visibility: visible;
         display: flex;
         height: auto;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .nav,
+    .nav__list {
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: 1rem;
     }
 
     .row {
         display: flex;
         justify-content: space-between;
-
     }
 
     .hero__text {
