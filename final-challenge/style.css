@@ -133,3 +133,18 @@ p {
   background-color: var(--white);
   text-align: center;
 }
+
+/* || Main content section */
+.main-content-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-content-aside-section {
+  background-color: var(--main-color-mid);
+  color: white;
+
+  text-align: center;
+  padding: 1em;
+}
