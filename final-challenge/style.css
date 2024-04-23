@@ -1,0 +1,22 @@
+:root {
+  box-sizing: border-box;
+
+  --main-color-dark: #2e323f;
+  --main-color-mid: #3b4050;
+  --main-color-light: #6f737f;
+  --secondary-color: #a59678;
+
+  font-family: 'Montserrat', sans-serif
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', Arial;
+}
