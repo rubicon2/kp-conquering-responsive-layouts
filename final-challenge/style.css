@@ -138,6 +138,10 @@ img {
   text-align: center;
 }
 
+.convincer-item {
+  padding: 0.5em;
+}
+
 /* || Main content section */
 .main-content-aside {
   display: flex;
