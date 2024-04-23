@@ -5,6 +5,7 @@
   --main-color-mid: #3b4050;
   --main-color-light: #6f737f;
   --secondary-color: #a59678;
+  --off-white: rgb(212, 212, 212);
 
   font-family: 'Montserrat', sans-serif
 }
@@ -17,6 +18,73 @@
   padding: 0;
 }
 
+/* || Standard elements */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', Arial;
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.2em 1em;
+  font-size: 1rem;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* || Re-usable classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.links {
+  list-style: none;
+}
+.links * {
+  text-decoration: none;
+}
+
+/* || Specific classes */
+.main-nav-background {
+  background-color: var(--main-color-dark);
+  color: var(--main-color-light);
+
+  font-family: 'Oswald', Arial;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.main-nav-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-nav-logo {
+  margin-bottom: 1rem;
+}
+
+.main-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.main-nav-links a {
+  color: var(--off-white);
+}
+
+.sign-up-button {
+  font-family: 'Oswald', Arial;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
