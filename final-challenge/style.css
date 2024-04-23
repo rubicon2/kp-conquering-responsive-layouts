@@ -57,9 +57,9 @@ img {
 
 /* || Re-usable classes */
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 3rem 2rem;
 }
 
 .links {
@@ -127,6 +127,7 @@ img {
 }
 
 .hero-aside {
+  font-size: 1.3rem;
 }
 
 .hero-button {
