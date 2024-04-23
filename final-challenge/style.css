@@ -159,6 +159,11 @@ img {
 
   text-align: center;
   padding: 1em;
+
+  /* Just to make sure the paragraphs all line up if one of the headings breaks onto a new line */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* || Footer section */
